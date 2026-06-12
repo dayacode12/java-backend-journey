@@ -20,17 +20,125 @@ Every skill is infrastructure:
 
 ## Table of Contents
 
+- [🚀 How I'm Starting My Backend Engineering Journey](#-how-im-starting-my-backend-engineering-journey)
+- [🏙️ My Backend Engineering Lab Setup](#-my-backend-engineering-lab-setup)
 - [🎯 Mission](#-mission)
 - [🧠 Learning Philosophy](#-learning-philosophy)
+- [🛠️ Engineering Learning Toolkit](#-engineering-learning-toolkit)
+- [🗄️ Database Learning Setup](#-database-learning-setup)
+- [🧠 Logic Building Strategy](#-logic-building-strategy)
+- [🔥 My Daily Learning Workflow](#-my-daily-learning-workflow)
+- [👀 Visual Learning Tools](#-visual-learning-tools)
+- [🎯 Learning Mindset](#-learning-mindset)
 - [📊 Progress Tracking](#-progress-tracking)
 - [📚 Learning Roadmap](#-learning-roadmap)
-- [🧩 LeetCode Roadmap](#-leetcode-roadmap)
-- [🛠️ Visual Learning Toolkit](#-visual-learning-toolkit)
+- [🧩 Backend Developer LeetCode Roadmap](#-backend-developer-leetcode-roadmap)
 - [🏗️ Projects](#-projects)
-- [🔥 Daily Workflow](#-daily-workflow)
 - [🎓 Learning Resources](#-learning-resources)
 - [🚀 Getting Started](#-getting-started)
 - [🎯 2026 Goals](#-2026-goals)
+
+---
+
+## 🚀 How I'm Starting My Backend Engineering Journey
+
+I am intentionally transitioning from **QA Automation Engineer** to **Java Backend Developer**. This is not a random career shift—it's a deliberate, structured progression toward high-value engineering roles.
+
+### The Transition Path
+
+```
+QA Automation Engineer (Current)
+         ↓
+Java Backend Developer (12 months)
+         ↓
+AI Backend Systems (2026+)
+         ↓
+LLM Engineering & Cloud-Native Systems
+         ↓
+High-Paying Software Engineering Roles
+```
+
+### Why This Repository?
+
+This repository documents my **intentional learning architecture**. I'm not collecting random projects—I'm building:
+
+✅ **Strong backend fundamentals** - System design thinking, not just code syntax  
+✅ **Production-ready skills** - Real API design, database optimization, security  
+✅ **Engineering mindset** - How to think in systems, not isolated features  
+✅ **AI-backend integration** - Foundation for LLM APIs and intelligent systems  
+✅ **Career-positioning portfolio** - Visible proof of structured learning for recruiters  
+
+### The City-Building Philosophy
+
+Every skill acts as **infrastructure in my engineering city**:
+
+```text
+Foundation Layer (Core Java)
+    ↓
+Transportation Layer (SQL, REST APIs)
+    ↓
+Building Layer (Spring Boot, Microservices)
+    ↓
+Smart Systems Layer (AI, Cloud, Advanced Patterns)
+```
+
+This ensures each phase builds on the previous one—no gaps, no shortcuts.
+
+---
+
+## 🏙️ My Backend Engineering Lab Setup
+
+Here's my complete learning environment for building backend systems:
+
+```
+┌─────────────────────────────────────────────────────┐
+│          IntelliJ IDEA Community (IDE)              │
+│         Java 17+ Development Environment            │
+└──────────────────┬──────────────────────────────────┘
+                   ↓
+┌─────────────────────────────────────────────────────┐
+│    Spring Boot 3.x → Building REST APIs             │
+│    Spring Data JPA → Database Operations            │
+│    Spring Security → Authentication & Auth          │
+└──────────────────┬──────────────────────────────────┘
+                   ↓
+┌─────────────────────────────────────────────────────┐
+│    PostgreSQL Database → Primary Data Store         │
+│    DBeaver → Visual Database Management             │
+│    Flyway → Database Migrations                     │
+└──────────────────┬──────────────────────────────────┘
+                   ↓
+┌─────────────────────────────────────────────────────┐
+│  Thunder Client / Hoppscotch → API Testing          │
+│  Postman (Advanced) → Complex Workflows             │
+└──────────────────┬──────────────────────────────────┘
+                   ↓
+┌─────────────────────────────────────────────────────┐
+│    Docker → Containerization & Local Deployment    │
+│    Docker Compose → Multi-container orchestration  │
+└──────────────────┬──────────────────────────────────┘
+                   ↓
+┌─────────────────────────────────────────────────────┐
+│     GitHub → Version Control & Portfolio            │
+│  Actions → CI/CD Pipeline Automation                │
+└─────────────────────────────────────────────────────┘
+```
+
+### My IDE: IntelliJ IDEA Community Edition
+
+**Download:** [IntelliJ IDEA Community](https://www.jetbrains.com/idea/download/)
+
+**Why IntelliJ over VS Code for Java Backend?**
+
+✅ **Best-in-class Java support** - Deep language understanding, intelligent refactoring  
+✅ **Superior debugging** - Step through complex Spring Boot applications effortlessly  
+✅ **Spring Boot integration** - Native project templates, dependency injection visualization  
+✅ **Code navigation** - Jump to definitions, find usages across massive codebases  
+✅ **Refactoring power** - Safe, intelligent code transformations  
+✅ **Professional-grade database tools** - Built-in database explorer and query debugging  
+✅ **Team collaboration** - Better merge conflict resolution than VS Code  
+
+While VS Code is excellent for frontend, **IntelliJ is the industry standard for enterprise Java backend development**.
 
 ---
 
@@ -77,6 +185,328 @@ Reflect & Document
 ✅ **Consistency > perfection** - 90 mins/day beats 8 hours once a week  
 ✅ **Confusion means growth** - Embrace the struggle  
 ✅ **Build messy → improve later** - Ship > perfect
+
+---
+
+## 🛠️ Engineering Learning Toolkit
+
+### My IDE & Editor Setup
+
+| Tool | Purpose | Link | Why It Matters |
+|------|---------|------|----------------|
+| IntelliJ IDEA Community | Primary Java IDE | [Download](https://www.jetbrains.com/idea/download/) | Enterprise-grade Java + Spring support |
+| VS Code | Secondary editor | [Download](https://code.visualstudio.com/) | Lightweight for notes, markdown, scripts |
+| Java Extension Pack | VS Code Java support | [Marketplace](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) | Makes VS Code viable for Java |
+| GitLens | Visual Git history | [GitHub](https://github.com/gitkraken/vscode-gitlens) | Understand code evolution |
+| Error Lens | Visual error highlighting | [GitHub](https://github.com/usernamehw/vscode-error-lens) | Catch mistakes before running |
+| Thunder Client | API testing | [Website](https://www.thunderclient.com/) | Built into VS Code, faster than Postman |
+
+### IntelliJ IDEA Essential Plugins
+
+| Plugin | Purpose | Benefit |
+|--------|---------|---------|
+| **Lombok** | Reduce boilerplate | Auto-generate getters, setters, constructors |
+| **SonarLint** | Code quality analysis | Catch bad practices before code review |
+| **Rainbow Brackets** | Visual code structure | Easier to match braces in nested code |
+| **GitToolBox** | Git productivity | Inline blame, copy links, quick commits |
+| **Checkstyle** | Code style enforcement | Maintain consistent formatting |
+| **Spring Boot Assistant** | Spring productivity | Application.yml templates, run configs |
+
+### Version Control & Collaboration
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| Git | Version control | [Download](https://git-scm.com/) |
+| GitHub | Remote repository | [github.com](https://github.com) |
+| GitKraken | Visual Git client | [Website](https://www.gitkraken.com/) |
+
+---
+
+## 🗄️ Database Learning Setup
+
+I'm learning SQL using **PostgreSQL** because it's:
+- **Industry standard** for serious backend engineering
+- **Open source** and free to learn
+- **Robust** for production systems
+- **Foundation** for cloud databases (AWS RDS, Azure PostgreSQL)
+
+### My Database Learning Path
+
+```text
+PostgreSQL (Current)
+    ↓
+MySQL (Intermediate)
+    ↓
+Redis (Advanced - Caching)
+    ↓
+MongoDB (NoSQL - Future)
+```
+
+### Database Tools
+
+| Tool | Purpose | Link | Why Use It |
+|------|---------|------|-----------|
+| **PostgreSQL** | Primary database | [Download](https://www.postgresql.org/download/) | Production-grade SQL learning |
+| **DBeaver Community** | Database client | [Download](https://dbeaver.io/download/) | Visual schema design, query debugging |
+| **DB Fiddle** | Online SQL practice | [Website](https://www.db-fiddle.com/) | No setup needed, instant SQL testing |
+| **DrawSQL** | ER diagram designer | [Website](https://drawsql.app/) | Visualize database relationships |
+| **pgAdmin** | PostgreSQL admin | [Website](https://www.pgadmin.org/) | Web UI for database management |
+
+### Database Design Workflow
+
+```
+1. Sketch ER Diagram (DrawSQL)
+    ↓
+2. Create Tables (SQL DDL)
+    ↓
+3. Write Queries (DB Fiddle / DBeaver)
+    ↓
+4. Visualize Data (DBeaver)
+    ↓
+5. Optimize Indexes & Performance
+```
+
+---
+
+## 🧠 Logic Building Strategy
+
+I use **LeetCode strategically** for backend development—not for competitive programming obsession, but for **building problem-solving patterns** that directly apply to backend engineering.
+
+### Daily LeetCode Target
+
+```
+2 Easy Problems   → Build confidence, understand patterns
+1 Medium Problem  → Strengthen algorithmic thinking
+0 Hard Problems   → Unnecessary at this stage
+```
+
+### Backend-Critical Problem Categories
+
+#### Arrays & Strings (Foundation)
+
+| Problem | Link | Backend Connection |
+|---------|------|-------------------|
+| [Reverse String](https://leetcode.com/problems/reverse-string/) | LeetCode | String manipulation in APIs |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | LeetCode | Input validation |
+| [Two Sum](https://leetcode.com/problems/two-sum/) | LeetCode | Caching patterns |
+| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | LeetCode | Detecting duplicate data |
+| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | LeetCode | Time-series data analysis |
+
+#### HashMap Thinking ⭐ (Critical for Backend)
+
+| Problem | Link | Backend Connection |
+|---------|------|-------------------|
+| [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | LeetCode | Character/token frequency |
+| [First Unique Character](https://leetcode.com/problems/first-unique-character-in-a-string/) | LeetCode | Event deduplication |
+| [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | LeetCode | Grouping API results |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | LeetCode | Ranking, trending content |
+
+#### Stack & Queue (Async Processing)
+
+| Problem | Link | Backend Connection |
+|---------|------|-------------------|
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | LeetCode | JSON/XML parsing |
+| [Min Stack](https://leetcode.com/problems/min-stack/) | LeetCode | Cache eviction policies |
+| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | LeetCode | Task queue design |
+
+#### Sliding Window (Rate Limiting & Optimization)
+
+| Problem | Link | Backend Connection |
+|---------|------|-------------------|
+| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | LeetCode | Session management |
+| [Maximum Average Subarray](https://leetcode.com/problems/maximum-average-subarray-i/) | LeetCode | Metric aggregation |
+
+### Philosophy: Connect to Backend
+
+Every problem should connect to a real backend scenario:
+
+```
+HashMap → User login systems, session caches
+Queue → Job processing, email notifications
+Sliding Window → API rate limiting, metrics aggregation
+Stack → Parser design, undo/redo functionality
+Trees → Permission hierarchies, organizational structures
+Graphs → Recommendation engines, social networks
+```
+
+---
+
+## 🔥 My Daily Learning Workflow
+
+### Time Structure: ~90 Minutes/Day
+
+```
+┌────────────────────────────────────────────────┐
+│ 20 mins: Concept Learning                      │
+│ • Watch tutorial, read documentation           │
+│ • Understand the "why" before the "how"        │
+└────────────────────────────────────────────────┘
+                      ↓
+┌────────────────────────────────────────────────┐
+│ 10 mins: System Architecture Design            │
+│ • Sketch on Excalidraw or paper                │
+│ • Think through the flow                       │
+└────────────────────────────────────────────────┘
+                      ↓
+┌────────────────────────────────────────────────┐
+│ 30 mins: Project Implementation                │
+│ • Code the actual feature/project              │
+│ • Focus on making it work first                │
+└────────────────────────────────────────────────┘
+                      ↓
+┌────────────────────────────────────────────────┐
+│ 15 mins: Visualize Execution                   │
+│ • Java Visualizer or debugger trace            │
+│ • Understand data flow step-by-step            │
+└────────────────────────────────────────────────┘
+                      ↓
+┌────────────────────────────────────────────────┐
+│ 10 mins: LeetCode Problem Solving              │
+│ • Quick problem (Easy/Medium only)             │
+│ • Connect pattern to backend scenario          │
+└────────────────────────────────────────────────┘
+                      ↓
+┌────────────────────────────────────────────────┐
+│ 5 mins: Debug & Fix Issues                     │
+│ • Run tests, check for errors                  │
+│ • Small refactoring if time permits            │
+└────────────────────────────────────────────────┘
+                      ↓
+┌────────────────────────────────────────────────┐
+│ 5 mins: Git Commit & Reflection                │
+│ • Commit with meaningful message               │
+│ • Write what you learned today                 │
+└────────────────────────────────────────────────┘
+```
+
+### Key Principle
+
+**Consistency beats intensity.** 90 minutes every day compounds exponentially:
+
+```
+Day 1:   90 mins = 90 mins total
+Day 30:  90 mins × 30 = 2,700 mins = 45 hours
+Day 180: 90 mins × 180 = 16,200 mins = 270 hours
+```
+
+In 6 months of consistent 90-minute sessions, I accumulate **270 hours of deep learning**—equivalent to a full-time job's worth of learning.
+
+---
+
+## 👀 Visual Learning Tools
+
+### Code Visualization
+
+| Tool | Purpose | Link | How It Helps |
+|------|---------|------|-------------|
+| **Java Visualizer** | Step-by-step code execution | [Website](https://pythontutor.com/java.html) | See memory, variables, stack frames in action |
+| **Excalidraw** | System architecture diagrams | [Website](https://excalidraw.com/) | Design before coding, visualize data flow |
+| **See Algorithms** | Algorithm animation | [Website](https://see-algorithms.com/) | Watch sorting, searching algorithms in motion |
+| **Regex Visualizer** | Regular expression patterns | [Website](https://regex101.com/) | Understand regex step-by-step |
+
+### API & Database Visualization
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| **Hoppscotch** | Open-source API client | [GitHub](https://github.com/hoppscotch/hoppscotch) |
+| **DB Fiddle** | SQL query visualization | [Website](https://www.db-fiddle.com/) |
+| **DrawSQL** | Database schema designer | [Website](https://drawsql.app/) |
+| **DBeaver** | Database client & visualizer | [Download](https://dbeaver.io/download/) |
+
+### Repository & Architecture Visualization
+
+| Tool | Purpose | Link | Why It Matters |
+|------|---------|------|----------------|
+| **Gource** | Repository growth animation | [GitHub](https://github.com/acaudwell/Gource) | Watch your codebase evolve |
+| **CodeSee** | Visual architecture mapping | [Website](https://www.codesee.io/) | Auto-generate system diagrams |
+| **GitKraken** | Visual Git client | [Website](https://www.gitkraken.com/) | Understand git history visually |
+
+### AI Learning Tools
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| **Continue.dev** | Open-source AI mentor | [Website](https://continue.dev/) |
+| **Open WebUI** | Local AI models | [GitHub](https://github.com/open-webui/open-webui) |
+| **Ollama** | Run LLMs locally | [Website](https://ollama.com/) |
+
+---
+
+## 🎯 Learning Mindset
+
+### Core Principles That Drive My Learning
+
+#### 1. **Learn Systems, Not Syntax**
+
+```
+❌ Don't memorize: "How do I write a loop?"
+✅ Do understand: "Why does this data structure need iteration?"
+```
+
+Backend engineering is about **system thinking**, not syntax memorization. I focus on:
+- Data flow patterns
+- System architecture
+- Performance implications
+- Security considerations
+
+#### 2. **AI is a Mentor, Not a Shortcut**
+
+```
+❌ Bad: "Give me the code"
+✅ Good: "Explain why this approach works"
+```
+
+I use AI to:
+- Clarify confusing concepts
+- Generate boilerplate (so I focus on logic)
+- Explain error messages
+- Challenge my assumptions
+
+NOT to skip thinking.
+
+#### 3. **Build Messy → Improve Later**
+
+```
+Day 1: Ugly code that works
+Day 2: Refactored, clean code
+Day 3: Optimized, tested code
+```
+
+Perfectionism kills learning. **Ship > Perfect** always. Iterate based on real feedback.
+
+#### 4. **Debugging Grows Your Logic**
+
+When something breaks:
+```
+Don't give up → Grab the debugger
+Add breakpoints → Step through execution
+Read the stack trace → Understand the "why"
+Fix it → Feel the victory
+```
+
+Debugging teaches more than tutorials. I embrace errors as learning opportunities.
+
+#### 5. **Consistency Beats Intensity**
+
+```
+❌ Wrong: 8 hours of coding once a week
+✅ Right: 90 mins every day
+
+Why? 
+- Spaced repetition embeds concepts
+- Daily momentum compounds
+- Less burnout, more sustainability
+- Real life continues alongside learning
+```
+
+#### 6. **Confusion Means You're Learning**
+
+```
+Comfort Zone: Already knew this
+Learning Zone: Feels challenging, confusing ← I live here
+Panic Zone: Completely overwhelming
+```
+
+If something feels confusing, that's a **signal I'm at the edge of my knowledge**. That's exactly where learning happens.
 
 ---
 
@@ -275,7 +705,7 @@ Reflect & Document
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [ ] [Edit Distance](https://leetcode.com/problems/edit-distance/)
 
-### Phase 3 — Backend-Specific Patterns
+### Phase 3 ��� Backend-Specific Patterns
 
 - [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/) - Backend caching
 - [ ] [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/) - Autocomplete
@@ -290,7 +720,8 @@ Reflect & Document
 
 | Tool | Purpose | Link |
 |------|---------|------|
-| VS Code | Main coding environment | [Link](https://code.visualstudio.com/) |
+| IntelliJ IDEA Community | Java IDE | [Link](https://www.jetbrains.com/idea/download/) |
+| VS Code | Supporting editor | [Link](https://code.visualstudio.com/) |
 | Java Extension Pack | Java development tools | [Link](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) |
 | GitLens | Visual Git history | [Link](https://github.com/gitkraken/vscode-gitlens) |
 | Error Lens | Visual code error highlighting | [Link](https://github.com/usernamehw/vscode-error-lens) |
@@ -546,7 +977,7 @@ MySQL Database
 - **JDK 11+** - [Download](https://www.oracle.com/java/technologies/downloads/)
 - **Maven 3.6+** - [Download](https://maven.apache.org/download.cgi)
 - **Git 2.0+** - [Download](https://git-scm.com/)
-- **IDE:** VS Code or IntelliJ IDEA Community
+- **IDE:** IntelliJ IDEA Community or VS Code
 
 ### Quick Setup
 
