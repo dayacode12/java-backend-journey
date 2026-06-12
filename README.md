@@ -19,7 +19,7 @@ Transitioning from QA Automation to Java Backend Development through structured 
 
 ## Overview
 
-This repository documents my journey transitioning from QA Automation to Java Backend Development. It contains structured learning materials, hands-on projects, and coding problems solved during the learning process.
+This repository documents my journey transitioning from QA Automation to Java Backend Development. It contains structured learning materials, hands-on projects, and coding problems solved during the process.
 
 **Target Skills:**
 - Core Java & OOP concepts
@@ -359,6 +359,7 @@ A social media platform backend with advanced features.
 - [HackerRank](https://www.hackerrank.com/) - Coding Challenges
 - [CodeSignal](https://codesignal.com/) - Interview Preparation
 - [Codewars](https://www.codewars.com/) - Coding Katas
+- [See Algorithms](https://see-algorithms.com/) - Visualizing Algorithms & Data Structures
 
 ---
 
