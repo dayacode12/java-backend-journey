@@ -1,407 +1,583 @@
-# Java Backend Journey 🚀
+# 🏙️ Building My Backend Engineering City
 
-Transitioning from QA Automation to Java Backend Development through structured learning and hands-on projects.
+> **QA Automation Engineer → Java Backend Developer → AI Backend Engineer**
+
+This repository is not just a collection of code. It is my **engineering city being built one system at a time**.
+
+Every skill is infrastructure:
+
+```text
+🧱 Core Java → Foundation
+🛣️ SQL → Roads & Data Flow
+🏢 Spring Boot → Buildings
+🚦 REST APIs → Transportation
+🏙️ Microservices → Connected Neighborhoods
+☁️ AWS/Azure → Cloud Infrastructure
+🤖 AI Systems → Smart City Expansion
+```
 
 ---
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [Learning Roadmap](#learning-roadmap)
-- [Prerequisites & Setup](#prerequisites--setup)
-- [Projects](#projects)
-- [LeetCode Resources](#leetcode-resources)
-- [Learning Resources](#learning-resources)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
+- [🎯 Mission](#-mission)
+- [🧠 Learning Philosophy](#-learning-philosophy)
+- [📊 Progress Tracking](#-progress-tracking)
+- [📚 Learning Roadmap](#-learning-roadmap)
+- [🧩 LeetCode Roadmap](#-leetcode-roadmap)
+- [🛠️ Visual Learning Toolkit](#-visual-learning-toolkit)
+- [🏗️ Projects](#-projects)
+- [🔥 Daily Workflow](#-daily-workflow)
+- [🎓 Learning Resources](#-learning-resources)
+- [🚀 Getting Started](#-getting-started)
+- [🎯 2026 Goals](#-2026-goals)
 
 ---
 
-## Overview
+## 🎯 Mission
 
-This repository documents my journey transitioning from QA Automation to Java Backend Development. It contains structured learning materials, hands-on projects, and coding problems solved during the process.
+Transition from QA Automation Engineering into Backend Development through:
 
-**Target Skills:**
-- Core Java & OOP concepts
-- Data Structures & Algorithms
-- Spring Framework & Spring Boot
-- RESTful API Development
-- Database Design & SQL
-- Testing & Quality Assurance
-- System Design Principles
+✅ Hands-on projects  
+✅ Visual system learning  
+✅ Open-source tools  
+✅ Daily coding  
+✅ Backend architecture thinking  
+✅ AI-assisted problem solving
 
 ---
 
-## Learning Roadmap
+## 🧠 Learning Philosophy
+
+### Learn Like an Engineer
+
+Think in **systems**, not files.
+
+```text
+Learn Concept
+    ↓
+Draw System (Excalidraw/Whiteboard)
+    ↓
+Code Implementation
+    ↓
+Visualize Execution (Java Visualizer)
+    ↓
+Debug & Trace
+    ↓
+Git Commit with Story
+    ↓
+Reflect & Document
+```
+
+### Core Rules
+
+✅ **Learn by building** - Theory + Code together  
+✅ **Visualize before coding** - Draw the architecture first  
+✅ **AI is a mentor, not a shortcut** - Use it to understand, not to skip thinking  
+✅ **Consistency > perfection** - 90 mins/day beats 8 hours once a week  
+✅ **Confusion means growth** - Embrace the struggle  
+✅ **Build messy → improve later** - Ship > perfect
+
+---
+
+## 📊 Progress Tracking
+
+### Learning Phases
+
+| Phase | Topic | Duration | Status | Start Date | Completion |
+|-------|-------|----------|--------|------------|------------|
+| 1️⃣ | Java Fundamentals | 3 weeks | ⬜ Not Started | - | - |
+| 2️⃣ | Data Structures & Algorithms | 5 weeks | ⬜ Not Started | - | - |
+| 3️⃣ | Intermediate Java | 3 weeks | ⬜ Not Started | - | - |
+| 4️⃣ | Spring & Spring Boot | 5 weeks | ⬜ Not Started | - | - |
+| 5️⃣ | Database & Persistence | 3 weeks | ⬜ Not Started | - | - |
+| 6️⃣ | Advanced Topics & Microservices | 4+ weeks | ⬜ Not Started | - | - |
+
+### Projects Status
+
+| Project | Difficulty | Status | Start | Target |
+|---------|-----------|--------|-------|--------|
+| Student Management System | Beginner | ⬜ | - | - |
+| Bank Management System | Beginner-Int | ⬜ | - | - |
+| Todo REST API | Intermediate | ⬜ | - | - |
+| E-commerce REST API | Advanced | ⬜ | - | - |
+| Social Media API | Advanced | ⬜ | - | - |
+
+### Repository Milestones
+
+- [x] Repository Setup
+- [x] README Documentation & Philosophy
+- [ ] Phase 1 - Java Fundamentals (Target: 3 weeks)
+- [ ] Phase 2 - Data Structures & Algorithms (Target: 5 weeks)
+- [ ] First Project - Student Management System
+- [ ] Phase 3 - Intermediate Java
+- [ ] Phase 4 - Spring & Spring Boot
+- [ ] Second Project - Bank Management System
+- [ ] Third Project - Todo REST API
+- [ ] Phase 5 - Database & Persistence
+- [ ] Phase 6 - Advanced Topics
+- [ ] Advanced Projects (E-commerce, Social Media)
+
+---
+
+## 📚 Learning Roadmap
 
 ### Phase 1: Java Fundamentals (Weeks 1-3)
-- [ ] Java Basics (variables, data types, operators)
+
+**Goal:** Solid foundation in core Java concepts
+
+- [ ] Java Basics (variables, data types, operators, primitive types)
 - [ ] Control Flow (if-else, loops, switch statements)
 - [ ] Object-Oriented Programming (classes, inheritance, polymorphism, encapsulation, abstraction)
-- [ ] Exception Handling
-- [ ] Collections Framework (List, Set, Map)
+- [ ] Exception Handling (try-catch-finally, custom exceptions)
+- [ ] Collections Framework (List, Set, Map, iterators)
+- [ ] String & StringBuilder handling
+
+**LeetCode Focus:** Strings & Arrays fundamentals
+
+---
 
 ### Phase 2: Data Structures & Algorithms (Weeks 4-8)
-- [ ] Arrays & Strings
-- [ ] Linked Lists
-- [ ] Stacks & Queues
-- [ ] Trees & Binary Search Trees
-- [ ] Graphs
-- [ ] Sorting & Searching Algorithms
-- [ ] Dynamic Programming
+
+**Goal:** Master DSA for interview preparation and problem-solving
+
+- [ ] Arrays & Strings (searching, sorting, manipulation)
+- [ ] Linked Lists (singly, doubly, circular)
+- [ ] Stacks & Queues (implementations, use cases)
+- [ ] Trees & Binary Search Trees (traversal, balancing)
+- [ ] Graphs (DFS, BFS, shortest path)
+- [ ] Sorting Algorithms (merge, quick, heap)
+- [ ] Searching Algorithms (binary search, linear search)
+- [ ] Dynamic Programming (memoization, tabulation)
 - [ ] Bit Manipulation
 
+**LeetCode Focus:** All phases (Easy → Medium → Hard progression)
+
+---
+
 ### Phase 3: Intermediate Java (Weeks 9-11)
+
+**Goal:** Advanced Java features for production code
+
 - [ ] Generics & Type Safety
-- [ ] Functional Programming (Lambdas, Streams)
-- [ ] File I/O
-- [ ] Multithreading & Concurrency
+- [ ] Functional Programming (Lambdas, Streams, Functional Interfaces)
+- [ ] File I/O & NIO
+- [ ] Multithreading & Concurrency (threads, locks, synchronization)
 - [ ] Reflection & Annotations
+- [ ] Lambda Expressions & Method References
+
+**Projects:** Student Management System (File I/O + Collections)
+
+---
 
 ### Phase 4: Spring & Spring Boot (Weeks 12-16)
-- [ ] Spring Framework Basics
-- [ ] Dependency Injection & IoC Container
-- [ ] Spring Boot Project Setup
-- [ ] Spring MVC
-- [ ] RESTful API Development
-- [ ] Exception Handling in REST APIs
+
+**Goal:** Build production-ready REST APIs
+
+- [ ] Spring Framework Basics (IoC, Dependency Injection)
+- [ ] Spring Boot Project Setup & Configuration
+- [ ] Spring MVC (Controllers, Request Mapping, Model View)
+- [ ] RESTful API Development (HTTP methods, status codes, content negotiation)
+- [ ] Exception Handling & Response Standardization
+- [ ] Validation & Input Sanitization
+- [ ] Logging & Monitoring
+
+**Projects:** Todo REST API, Bank Management System
+
+---
 
 ### Phase 5: Database & Persistence (Weeks 17-19)
-- [ ] SQL Fundamentals
-- [ ] Database Design
-- [ ] JPA & Hibernate
-- [ ] Spring Data JPA
+
+**Goal:** Data persistence layer mastery
+
+- [ ] SQL Fundamentals (DDL, DML, DCL, joins, aggregations)
+- [ ] Database Design (normalization, ER diagrams, indexing)
+- [ ] JPA & Hibernate (entities, relationships, query methods)
+- [ ] Spring Data JPA (repositories, specifications, custom queries)
 - [ ] Transactions & ACID Properties
+- [ ] Connection Pooling & Performance Optimization
+
+**Projects:** E-commerce REST API (with database)
+
+---
 
 ### Phase 6: Advanced Topics (Weeks 20+)
-- [ ] Authentication & Authorization
-- [ ] API Security
-- [ ] Microservices Architecture
+
+**Goal:** Enterprise-level backend development
+
+- [ ] Authentication & Authorization (JWT, OAuth2, Spring Security)
+- [ ] API Security (CORS, CSRF, rate limiting, encryption)
+- [ ] Caching Strategies (Redis, in-memory caching)
+- [ ] Microservices Architecture (service decomposition, communication)
 - [ ] Docker & Containerization
-- [ ] CI/CD Pipelines
-- [ ] Testing (Unit, Integration)
-- [ ] Monitoring & Logging
+- [ ] CI/CD Pipelines (GitHub Actions, Jenkins)
+- [ ] Testing (Unit, Integration, E2E - JUnit, Mockito, TestContainers)
+- [ ] Monitoring, Logging & Observability
+- [ ] Message Queues (RabbitMQ, Kafka)
+- [ ] Cloud Deployment (AWS/Azure/GCP basics)
+
+**Projects:** Social Media API (with advanced features)
 
 ---
 
-## Prerequisites & Setup
+## 🧩 Backend Developer LeetCode Roadmap
 
-### System Requirements
+**Strategy:** Build strong fundamentals before diving into complex problems
 
-- **Java Development Kit (JDK):** Version 11 or higher
-  - [Download JDK](https://www.oracle.com/java/technologies/downloads/)
-- **Apache Maven:** Version 3.6 or higher
-  - [Download Maven](https://maven.apache.org/download.cgi)
-- **Git:** Version 2.0 or higher
-  - [Download Git](https://git-scm.com/)
-- **IDE:** IntelliJ IDEA Community Edition or VS Code
-  - [IntelliJ IDEA](https://www.jetbrains.com/idea/download/)
-  - [VS Code](https://code.visualstudio.com/)
+### Phase 1 — Logic Foundations (Must Complete First)
 
-### Installation & Configuration
+#### Strings & Arrays
 
-#### 1. Install JDK
-```bash
-# Linux (Ubuntu/Debian)
-sudo apt-get install openjdk-11-jdk
+- [ ] [Reverse String](https://leetcode.com/problems/reverse-string/) - Array manipulation
+- [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) - String processing
+- [ ] [Two Sum](https://leetcode.com/problems/two-sum/) - HashMap thinking
+- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) - Set basics
+- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) - Array traversal
 
-# macOS
-brew install openjdk@11
+#### HashMap Thinking ⭐ (Critical for Backend)
 
-# Windows
-# Download from Oracle website and install
-```
+- [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/) - Character frequency
+- [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/) - HashMap grouping
+- [ ] [First Unique Character](https://leetcode.com/problems/first-unique-character-in-a-string/) - HashMap indexing
+- [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) - Heap + HashMap
 
-#### 2. Verify Java Installation
-```bash
-java -version
-javac -version
-```
+#### Stack & Queue
 
-#### 3. Install Maven
-```bash
-# Download and extract Maven
-# Set MAVEN_HOME environment variable
-# Add Maven bin to PATH
+- [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) - Stack basics
+- [ ] [Min Stack](https://leetcode.com/problems/min-stack/) - Stack with extra info
+- [ ] [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) - Data structure design
 
-# Verify installation
-mvn -version
-```
+#### Sliding Window
 
-#### 4. Clone Repository
-```bash
-git clone https://github.com/dayacode12/java-backend-journey.git
-cd java-backend-journey
-```
+- [ ] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) - Window techniques
+- [ ] [Maximum Average Subarray](https://leetcode.com/problems/maximum-average-subarray-i/) - Window pattern
 
-#### 5. Setup IDE
-- Open the project in your IDE
-- Configure JDK path
-- Install necessary plugins (Spring Boot, Lombok, etc.)
+### Phase 2 — Intermediate Algorithms
+
+#### Linked Lists
+
+- [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [ ] [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [ ] [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+- [ ] [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+
+#### Trees & Graphs
+
+- [ ] [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- [ ] [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+- [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
+
+#### Dynamic Programming
+
+- [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+- [ ] [House Robber](https://leetcode.com/problems/house-robber/)
+- [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
+- [ ] [Edit Distance](https://leetcode.com/problems/edit-distance/)
+
+### Phase 3 — Backend-Specific Patterns
+
+- [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/) - Backend caching
+- [ ] [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/) - Autocomplete
+- [ ] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) - Complex logic
+- [ ] [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) - Data aggregation
 
 ---
 
-## Projects
+## 🛠️ Visual Learning Toolkit (Open Source + Free)
+
+### 💻 Development Environment
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| VS Code | Main coding environment | [Link](https://code.visualstudio.com/) |
+| Java Extension Pack | Java development tools | [Link](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) |
+| GitLens | Visual Git history | [Link](https://github.com/gitkraken/vscode-gitlens) |
+| Error Lens | Visual code error highlighting | [Link](https://github.com/usernamehw/vscode-error-lens) |
+| Thunder Client | API testing inside VS Code | [Link](https://www.thunderclient.com/) |
+| Postman | Advanced API testing | [Link](https://www.postman.com/) |
+
+### 🧠 Logic Building & Visualization
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| Java Visualizer | See Java code execution step-by-step | [Link](https://pythontutor.com/java.html) |
+| Excalidraw | Draw system architectures & diagrams | [Link](https://excalidraw.com/) |
+| DB Fiddle | Practice SQL with live visualization | [Link](https://www.db-fiddle.com/) |
+| DrawSQL | Design databases visually | [Link](https://drawsql.app/) |
+| See Algorithms | Visualize DSA concepts in action | [Link](https://see-algorithms.com/) |
+| Regex Visualizer | Understand regex patterns | [Link](https://regex101.com/) |
+
+### 🤖 AI Learning Tools
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| Continue.dev | Open-source AI coding mentor | [Link](https://continue.dev/) |
+| Open WebUI | Run local AI models | [Link](https://github.com/open-webui/open-webui) |
+| Ollama | Run open-source LLMs locally | [Link](https://ollama.com/) |
+| Hoppscotch | Open-source Postman alternative | [Link](https://github.com/hoppscotch/hoppscotch) |
+
+### 🐳 Backend & Infrastructure Tools
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| Spring Initializr | Generate Spring Boot projects | [Link](https://start.spring.io/) |
+| Docker | Containerization & deployment | [Link](https://www.docker.com/) |
+| Docker Compose | Multi-container applications | [Link](https://docs.docker.com/compose/) |
+| Dockge | Visual Docker dashboard | [Link](https://github.com/louislam/dockge) |
+| LazyDocker | Terminal UI for Docker | [Link](https://github.com/jesseduffield/lazydocker) |
+| Adminer | Database management UI | [Link](https://www.adminer.org/) |
+
+### 🌱 Repository & Git Visualization
+
+| Tool | Purpose | Link |
+|------|---------|------|
+| Gource | Visualize repository growth over time | [Link](https://github.com/acaudwell/Gource) |
+| CodeSee | Visual architecture mapping | [Link](https://www.codesee.io/) |
+| GitKraken | Visual Git client | [Link](https://www.gitkraken.com/) |
+
+---
+
+## 🏗️ Projects
 
 ### Project 1: Student Management System
 **Difficulty:** Beginner  
 **Duration:** 1-2 weeks  
+**Status:** ⬜ Not Started  
 **Topics:** OOP, Collections, File I/O
 
-**Description:**
-A console-based application to manage student records with CRUD operations.
-
 **Features:**
-- Add, update, delete, and retrieve student records
-- Search students by ID or name
-- Persistent storage using file serialization
+- Add, update, delete, retrieve student records
+- Search by ID or name
+- File-based persistence (serialization)
 - Input validation
+- Simple menu-driven UI
 
-**Technologies:** Core Java, Collections, File I/O
+**Tech Stack:** Core Java, Collections, File I/O
+
+**System Architecture:**
+```text
+User Input (Console)
+    ↓
+StudentManager (Controller)
+    ↓
+StudentService (Business Logic)
+    ↓
+StudentRepository (File Storage)
+    ↓
+students.dat (Persistent Storage)
+```
 
 ---
 
 ### Project 2: Bank Management System
 **Difficulty:** Beginner to Intermediate  
 **Duration:** 2-3 weeks  
+**Status:** ⬜ Not Started  
 **Topics:** OOP, Exception Handling, Collections
 
-**Description:**
-A desktop application for basic banking operations.
-
 **Features:**
-- Account creation and management
-- Deposit and withdraw operations
-- Transaction history
+- Account creation & management
+- Deposit/withdraw operations
+- Transaction history tracking
 - User authentication
-- Balance inquiry
+- Balance inquiry & reporting
 
-**Technologies:** Core Java, Swing (GUI), Collections, Exception Handling
+**Tech Stack:** Core Java, Swing (GUI), Collections
+
+**System Architecture:**
+```text
+GUI (Swing)
+    ↓
+AccountManager (Controller)
+    ↓
+BankService (Business Logic)
+    ↓
+AccountRepository (In-Memory + File)
+    ↓
+Bank Database (File)
+```
 
 ---
 
 ### Project 3: Todo REST API
 **Difficulty:** Intermediate  
 **Duration:** 2-3 weeks  
-**Topics:** Spring Boot, REST APIs, JPA
-
-**Description:**
-A full-featured REST API for managing todo items.
+**Status:** ⬜ Not Started  
+**Topics:** Spring Boot, REST APIs, JPA, Testing
 
 **Features:**
-- Create, read, update, delete todos
-- User authentication & authorization
-- Task categorization and filtering
-- API documentation (Swagger)
-- Unit and integration tests
+- CRUD operations for todos
+- User authentication (JWT tokens)
+- Task categorization & filtering
+- API documentation (Swagger/OpenAPI)
+- Comprehensive testing (Unit & Integration)
 
-**Technologies:** Spring Boot, Spring Data JPA, MySQL, JUnit, Mockito
+**Tech Stack:** Spring Boot, Spring Data JPA, MySQL, JUnit 5, Mockito
 
 **Endpoints:**
-- `POST /api/todos` - Create a new todo
-- `GET /api/todos` - Retrieve all todos
-- `GET /api/todos/{id}` - Retrieve specific todo
-- `PUT /api/todos/{id}` - Update todo
-- `DELETE /api/todos/{id}` - Delete todo
+```
+POST   /api/todos              - Create todo
+GET    /api/todos              - List all todos
+GET    /api/todos/{id}         - Get specific todo
+PUT    /api/todos/{id}         - Update todo
+DELETE /api/todos/{id}         - Delete todo
+GET    /api/todos/search?tag=  - Search todos
+```
+
+**System Architecture:**
+```text
+HTTP Client
+    ↓
+REST Controller
+    ↓
+Service Layer (Business Logic)
+    ↓
+Repository Layer (JPA)
+    ↓
+MySQL Database
+```
 
 ---
 
 ### Project 4: E-commerce REST API
 **Difficulty:** Advanced  
 **Duration:** 4-5 weeks  
-**Topics:** Spring Boot, Microservices, Caching, Security
-
-**Description:**
-A comprehensive e-commerce backend system with multiple microservices.
+**Status:** ⬜ Not Started  
+**Topics:** Spring Boot, Caching, Security, Transactions
 
 **Features:**
-- Product catalog management
-- Shopping cart functionality
-- Order processing
+- Product catalog with filtering
+- Shopping cart management
+- Order processing & tracking
 - Payment integration (mock)
-- User reviews and ratings
-- Role-based access control
+- User reviews & ratings
+- Role-based access control (RBAC)
 - API rate limiting
-- Caching strategies
-- Database optimization
+- Redis caching strategies
 
-**Technologies:** Spring Boot, Spring Security, MySQL, Redis, Docker, Kubernetes (optional)
+**Tech Stack:** Spring Boot, Spring Security, MySQL, Redis, Docker
 
 ---
 
 ### Project 5: Social Media API
 **Difficulty:** Advanced  
 **Duration:** 5-6 weeks  
-**Topics:** Advanced Spring Boot, Microservices, Real-time Features
-
-**Description:**
-A social media platform backend with advanced features.
+**Status:** ⬜ Not Started  
+**Topics:** Microservices, WebSocket, Real-time Features
 
 **Features:**
-- User profiles and authentication
-- Post creation and management
-- Comment and like functionality
-- Follow/Unfollow system
-- User feed generation
-- Search functionality
-- Real-time notifications (WebSocket)
-- Image upload
-- Scalability & performance optimization
+- User authentication & profiles
+- Post creation & management
+- Comments & likes system
+- Follow/Unfollow functionality
+- Real-time feed generation
+- Search & recommendations
+- WebSocket for real-time notifications
+- Image upload & storage
 
-**Technologies:** Spring Boot, Spring Data JPA, MongoDB/PostgreSQL, Redis, WebSocket, Docker, Kafka (optional)
-
----
-
-## LeetCode Resources
-
-### Easy Level Problems
-| # | Problem | Topics | Status |
-|---|---------|--------|--------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Array, Hash Map | ⬜ |
-| 2 | [Reverse String](https://leetcode.com/problems/reverse-string/) | String, Array | ⬜ |
-| 3 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Stack, String | ⬜ |
-| 4 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Linked List | ⬜ |
-| 5 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Math | ⬜ |
-| 6 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Array, Hash Set | ⬜ |
-| 7 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Array, DP | ⬜ |
-| 8 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Array | ⬜ |
-| 9 | [Majority Element](https://leetcode.com/problems/majority-element/) | Array, Divide & Conquer | ⬜ |
-| 10 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | Array | ⬜ |
-
-### Medium Level Problems
-| # | Problem | Topics | Status |
-|---|---------|--------|--------|
-| 1 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Linked List, Math | ⬜ |
-| 2 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | String, Sliding Window | ⬜ |
-| 3 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | String, DP | ⬜ |
-| 4 | [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | String | ⬜ |
-| 5 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Tree, BFS | ⬜ |
-| 6 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | Graph, Topological Sort | ⬜ |
-| 7 | [Coin Change](https://leetcode.com/problems/coin-change/) | DP | ⬜ |
-| 8 | [Word Break](https://leetcode.com/problems/word-break/) | DP, String | ⬜ |
-| 9 | [House Robber](https://leetcode.com/problems/house-robber/) | DP, Array | ⬜ |
-| 10 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Design, Hash Map, Linked List | ⬜ |
-
-### Hard Level Problems
-| # | Problem | Topics | Status |
-|---|---------|--------|--------|
-| 1 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Array, Binary Search | ⬜ |
-| 2 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | String, DP | ⬜ |
-| 3 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Linked List, Divide & Conquer | ⬜ |
-| 4 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | Array, Stack | ⬜ |
-| 5 | [Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | Segment Tree, Heap | ⬜ |
-| 6 | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/) | BFS, Graph | ⬜ |
-| 7 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | Stack, Array | ⬜ |
-| 8 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | String, Sliding Window | ⬜ |
-
-### Data Structures & Algorithms by Topic
-
-#### Arrays & Strings
-- [Two Sum](https://leetcode.com/problems/two-sum/)
-- [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
-- [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-
-#### Linked Lists
-- [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-- [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
-- [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
-- [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
-
-#### Trees & Graphs
-- [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
-- [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
-- [Number of Islands](https://leetcode.com/problems/number-of-islands/)
-- [Course Schedule](https://leetcode.com/problems/course-schedule/)
-
-#### Stacks & Queues
-- [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
-- [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
-
-#### Dynamic Programming
-- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [House Robber](https://leetcode.com/problems/house-robber/)
-- [Coin Change](https://leetcode.com/problems/coin-change/)
-- [Edit Distance](https://leetcode.com/problems/edit-distance/)
+**Tech Stack:** Spring Boot, Spring Data JPA, PostgreSQL/MongoDB, Redis, WebSocket, Docker
 
 ---
 
-## Learning Resources
+## 🔥 Daily Workflow
 
-### Books
-- **Effective Java** by Joshua Bloch
-- **Clean Code** by Robert C. Martin
-- **Design Patterns: Elements of Reusable Object-Oriented Software** by Gang of Four
-- **Introduction to Algorithms** by Cormen, Leiserson, Rivest, and Stein
-- **Spring in Action** by Craig Walls
+### Time Allocation (90 minutes/day)
 
-### Online Courses
-- [Java Programming Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/)
-- [Spring Boot Microservices](https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/)
-- [Data Structures & Algorithms](https://www.udemy.com/course/data-structures-and-algorithms-deep-dive-using-java/)
-- [System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
+```
+20 mins → Learn new concept (video, blog, documentation)
+10 mins → Draw system architecture (Excalidraw/paper)
+30 mins → Code implementation
+15 mins → Visualize logic execution (Java Visualizer)
+10 mins → Test & debug
+5  mins → Git commit with meaningful message
+```
 
-### YouTube Channels
-- [Code With Harry](https://www.youtube.com/@CodeWithHarry)
-- [Telusko](https://www.youtube.com/@Telusko)
-- [Kunal Kushwaha](https://www.youtube.com/@KunalKushwaha)
-
-### Documentation
-- [Official Java Documentation](https://docs.oracle.com/javase/11/docs/api/)
-- [Spring Framework Documentation](https://spring.io/projects/spring-framework)
-- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
-- [Maven Documentation](https://maven.apache.org/guides/)
-
-### Coding Platforms
-- [LeetCode](https://leetcode.com/) - Algorithm & Data Structure Problems
-- [HackerRank](https://www.hackerrank.com/) - Coding Challenges
-- [CodeSignal](https://codesignal.com/) - Interview Preparation
-- [Codewars](https://www.codewars.com/) - Coding Katas
-- [See Algorithms](https://see-algorithms.com/) - Visualizing Algorithms & Data Structures
+**Philosophy:** Small, consistent progress compounds exponentially.
 
 ---
 
-## Getting Started
+## 🎓 Learning Resources
+
+### 📖 Books
+
+- **Effective Java** by Joshua Bloch - Best practices
+- **Clean Code** by Robert C. Martin - Code quality
+- **Design Patterns** by Gang of Four - Reusable solutions
+- **Introduction to Algorithms** by CLRS - DSA fundamentals
+- **Spring in Action** by Craig Walls - Spring ecosystem
+- **System Design Interview** by Alex Xu - Architecture thinking
+
+### 🎥 Online Courses
+
+- [Java Programming Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/) - Comprehensive Java
+- [Spring Boot Microservices](https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/) - Microservices patterns
+- [Data Structures & Algorithms](https://www.udemy.com/course/data-structures-and-algorithms-deep-dive-using-java/) - DSA mastery
+- [System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview) - Architecture thinking
+
+### 🎬 YouTube Channels
+
+- [Code With Harry](https://www.youtube.com/@CodeWithHarry) - Clear explanations
+- [Telusko](https://www.youtube.com/@Telusko) - Comprehensive tutorials
+- [Kunal Kushwaha](https://www.youtube.com/@KunalKushwaha) - DSA & system design
+- [Tech with Tim](https://www.youtube.com/@TechWithTim) - Backend concepts
+
+### 📚 Documentation
+
+- [Oracle Java Documentation](https://docs.oracle.com/javase/11/docs/api/) - Official reference
+- [Spring Framework Docs](https://spring.io/projects/spring-framework) - Framework guide
+- [Spring Boot Docs](https://spring.io/projects/spring-boot) - Bootstrap guide
+- [Maven Documentation](https://maven.apache.org/guides/) - Build tool
+
+### 💻 Practice Platforms
+
+- [LeetCode](https://leetcode.com/) - Algorithm & DSA problems
+- [HackerRank](https://www.hackerrank.com/) - Coding challenges
+- [CodeSignal](https://codesignal.com/) - Interview prep
+- [Codewars](https://www.codewars.com/) - Coding katas
+- [See Algorithms](https://see-algorithms.com/) - Visual learning
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **JDK 11+** - [Download](https://www.oracle.com/java/technologies/downloads/)
+- **Maven 3.6+** - [Download](https://maven.apache.org/download.cgi)
+- **Git 2.0+** - [Download](https://git-scm.com/)
+- **IDE:** VS Code or IntelliJ IDEA Community
 
 ### Quick Setup
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/dayacode12/java-backend-journey.git
-   cd java-backend-journey
-   ```
+```bash
+# Clone repository
+git clone https://github.com/dayacode12/java-backend-journey.git
+cd java-backend-journey
 
-2. **Verify Java installation:**
-   ```bash
-   java -version
-   javac -version
-   ```
+# Verify Java installation
+java -version
+javac -version
 
-3. **Navigate to a project:**
-   ```bash
-   cd projects/project-name
-   ```
+# Verify Maven installation
+mvn -version
 
-4. **Compile and run:**
-   ```bash
-   javac src/*.java
-   java -cp src MainClass
-   ```
+# Navigate to a project
+cd projects/student-management-system
 
-5. **For Spring Boot projects:**
-   ```bash
-   mvn clean install
-   mvn spring-boot:run
-   ```
+# Compile
+javac src/*.java
+
+# Run
+java -cp src Main
+```
 
 ### Directory Structure
 
 ```
 java-backend-journey/
 ├── README.md
-├── pom.xml (parent)
+├── pom.xml (parent POM)
 ├── projects/
 │   ├── student-management-system/
 │   ├── bank-management-system/
@@ -416,56 +592,74 @@ java-backend-journey/
 │   ├── java-fundamentals/
 │   ├── data-structures/
 │   ├── oop-concepts/
-│   └── spring-boot/
+│   ├── spring-boot/
+│   └── system-design/
 └── docs/
     ├── setup-guide.md
     ├── best-practices.md
+    ├── architecture-patterns.md
     └── troubleshooting.md
 ```
 
 ---
 
-## Contributing
+## 🎯 2026 Goals
 
-Contributions are welcome! Feel free to:
-- Add new solutions or projects
-- Improve existing code
-- Report bugs
-- Suggest improvements
+### Target Outcomes
 
-Please follow these guidelines:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add your feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
+By end of 2026, I aim to be a **strong, confident backend engineer** capable of:
 
----
+✅ Building **scalable, production-grade REST APIs**  
+✅ Designing **robust system architectures**  
+✅ Working with **microservices patterns**  
+✅ Deploying applications to **AWS/Azure/GCP**  
+✅ Integrating **AI/ML features** into backends  
+✅ Writing **clean, testable, maintainable code**  
+✅ Collaborating effectively on **enterprise projects**  
+✅ Contributing to **open-source projects**  
+✅ Becoming a **high-value software engineer**
 
-## Progress Tracking
+### Measurable Milestones
 
-- [x] Repository Setup
-- [x] README Documentation
-- [ ] Phase 1 - Java Fundamentals
-- [ ] Phase 2 - Data Structures & Algorithms
-- [ ] Phase 3 - Intermediate Java
-- [ ] Phase 4 - Spring & Spring Boot
-- [ ] Phase 5 - Database & Persistence
-- [ ] Phase 6 - Advanced Topics
+- ✅ Complete all 6 learning phases (by Q4 2026)
+- ✅ Solve 100+ LeetCode problems (by Q3 2026)
+- ✅ Build 5 complete projects (by Q4 2026)
+- ✅ Contribute to 3+ open-source projects
+- ✅ Write 50+ technical blog posts documenting journey
+- ✅ Achieve 5-star rating on any LeetCode problems submitted
+- ✅ Interview-ready for senior backend roles
 
 ---
 
-## Contact
+## 📞 Connect
 
 - **GitHub:** [@dayacode12](https://github.com/dayacode12)
 - **LinkedIn:** [Your LinkedIn Profile]
+- **Portfolio:** [Coming Soon]
+- **Blog:** [Coming Soon]
 
 ---
 
-## License
+## 📄 License
 
 This repository is open source and available under the [MIT License](LICENSE).
 
 ---
 
+## 🤝 Contributing
+
+Contributions, suggestions, and feedback are welcome!
+
+- Fork the repository
+- Create a feature branch (`git checkout -b feature/improvement`)
+- Commit your changes (`git commit -m 'Add improvement'`)
+- Push to the branch (`git push origin feature/improvement`)
+- Open a Pull Request
+
+---
+
+**Last Updated:** June 12, 2026
+
 **Happy Learning! 🎉**
+
+> Remember: The goal isn't perfection. The goal is progress. Every commit is a step closer to becoming the engineer you want to be.
