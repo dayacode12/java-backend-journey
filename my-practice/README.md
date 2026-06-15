@@ -1,4 +1,4 @@
-# My Practice Area
+# My Practice
 
 This folder is your personal DSA sandbox.
 
@@ -14,13 +14,16 @@ Use it for first attempts, rough code, debugging experiments, and alternate appr
 5. Once it works, rewrite the clean version in leetcode-solutions/
 ```
 
-## Folder Meaning
+## Keep It Simple
 
 ```text
-phase1-logic-foundations/  -> beginner DSA patterns
-phase2-data-structures/    -> linked lists, trees, graphs, DP
-phase3-backend-patterns/   -> cache, trie, serialization, backend-heavy DSA
+my-practice/
+  phase1-logic-foundations/
+    strings-arrays/
+      ReverseStringTry1.java
 ```
+
+Create new folders only when you start practicing that topic.
 
 ## Naming Convention
 
